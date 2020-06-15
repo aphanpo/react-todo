@@ -14,11 +14,14 @@ export default function(props) {
             onClick={e => toggle(todo.id)}
           > 
             {todo.title}
-            <button onClick={e => remove(todo.id)}>x</button>
+            <button onClick={e => remove(todo.id)} className="x">X</button>
            
           </li>
         ))}
+        <div className="print">
         <p>Items Count: {todos.length}</p>
+        <button onClick={() => window.print()} id="printbutton">PRINT LIST!</button>
+        </div>
       </ul>
     </div>
   )
