@@ -27,6 +27,12 @@ code {
   margin: auto;
 }
 
+.form {
+  border: 1px solid black;
+  width: 600px;
+  margin: auto;
+}
+
 .print {
   display: flex;
   justify-content: space-between;
@@ -35,13 +41,20 @@ code {
 
 #printbutton {
   height: 30px;
+  border: 1px solid black;
+  outline: none;
+}
+
+#printbutton:hover {
+  background-color: green;
+  color: white;
 }
 
 input {
   height: 50px;
   width: 400px;
   font-size: 15px;
-  outline: none;
+  outline: solid;
   text-indent: 20px;
 }
 

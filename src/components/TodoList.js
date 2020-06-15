@@ -1,5 +1,6 @@
 import React from "react"
 import { useTodos } from "../redux/ducks/todos"
+import ReactToPrint from "react-to-print"
 
 export default function(props) {
   const { todos, remove, toggle } = useTodos()
@@ -21,6 +22,7 @@ export default function(props) {
         <div className="print">
         <p>Items Count: {todos.length}</p>
         <button onClick={() => window.print()} id="printbutton">PRINT LIST!</button>
+     
         </div>
       </ul>
     </div>

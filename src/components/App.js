@@ -8,7 +8,7 @@ import TodoList from "./TodoList"
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div className="form">
       <h1>To-Do List</h1>
         <TodoForm />
         <TodoList />

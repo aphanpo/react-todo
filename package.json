@@ -47,5 +47,8 @@
   },
   "description": "",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "react-to-print": "^2.9.0"
+  }
 }
