@@ -16,6 +16,7 @@ export default function(props) {
     <div className="formList">
       <form onSubmit={handleSubmit}>
         <input
+          id="form"
           type="text"
           placeholder="What needs to be done?"
           onChange={e => setTodo(e.target.value)}
